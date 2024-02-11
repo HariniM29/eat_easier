@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
-mongoose.connect('mongodb+srv://yuvaraj0313:nlPvjLZbt8gY42OX@cartyy.mpvbcai.mongodb.net/foodapp', {
+mongoose.connect('mongodb+srv://sixSlay:oZ8NGjZswFfgw2wG@serverlessinstance2.yx1strl.mongodb.net/zappy', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
